@@ -8,10 +8,14 @@ body{
   font-family: "Times New Roman",Helvetica,Arial;
   font-size: 15px;
 }
-
+ul{
+  list-style-type: none;
+}
 a{
   font-size: 20px;
   text-decoration: none;
+  margin: 5px;
+  padding: 5px;
   display: inline-block;
   width: 100px;
 }
@@ -39,6 +43,13 @@ nav{
   background-color: black;
   color: white;
   font-style: italic;
+  padding-left: 524px;
+  padding-right: 524px;
+  overflow: hidden;
+}
+
+nav a{
+  float: left;
 }
 
 article{
@@ -46,4 +57,61 @@ article{
   text-align: justify;
   letter-spacing: 2px;
   line-height: 20px;
+}
+
+.Posts{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.post{
+  background-color: #E5E3E3;
+  margin: 25px 0px;
+  padding: 5px 0px;
+}
+.post-container{
+  margin-left: 524px;
+  margin-right: 524px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.post-container h2{
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 10px;
+}
+
+div .img-article img{
+  width: 860px;
+  align-items: center;
+  margin: 10px 0px;
+}
+.post-container h3{
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-weight:lighter;
+  margin: 10px;
+  padding: 10px;
+  color: #6E6E6E;
+}
+
+.button{
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+.button a{
+  width: 115px;
+  margin: 10px;
+  padding: 10px;
+  position:absolute;
+  bottom: 20%;
+  left: 40%;
 }
