@@ -1,6 +1,9 @@
 *{
   padding: 0;
   margin: 0;
+  -webkit-box-sizing : border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 body{
   background: white;
@@ -114,4 +117,86 @@ div .img-article img{
   position:absolute;
   bottom: 20%;
   left: 40%;
+}
+.proyect-Gallery
+{
+  overflow: hidden;
+}
+.proyect-Gallery .item-container{
+  float: left;
+}
+.item-container
+{
+  width: 250px;
+  display: block;
+  margin: 20px;
+  padding: 5px;
+  border: 3px solid #000;
+}
+.product-img a img{
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+.product-img img:hover{
+  opacity: 1;
+}
+.item-container h3{
+  margin: 5px auto;
+}
+
+.contactme {
+  width: 872px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid #E5E3E3;
+}
+.contactme h2{
+  text-align: center;
+}
+.formulary input{
+  display: block;
+  position: relative;
+}
+
+.formulary input[type="text"],
+.formulary input[type="email"],
+.formulary textarea{
+  width: 70%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #000;
+  border-radius: 3px;
+}
+
+.formulary textarea{
+  min-height: 100px;
+  max-height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.formulary input[type="text"],
+.formulary input[type="email"]{
+  margin: 20px auto;
+}
+
+.formulary input[type="submit"]
+{
+  width: 50px;
+  margin: 20px auto;
+  background-color: inherit;
+  border: 1px solid #000;
+}
+
+.formulary input[type="submit"]:hover
+{
+  border :2px solid #000;
+}
+
+.formulary textarea:focus,input:focus{
+  border-color: red;
 }
