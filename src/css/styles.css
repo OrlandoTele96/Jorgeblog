@@ -200,3 +200,9 @@ div .img-article img{
 .formulary textarea:focus,input:focus{
   border-color: red;
 }
+
+footer{
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+}
