@@ -157,5 +157,100 @@ article{
 }
 
 .body-container .Posts .post .post-container .button a{
-  
+  width: auto;
+  margin: 3% 43%;
+}
+
+.body-container .Posts .post .post-container .proyect-Gallery{
+  width: 90%;
+  margin: 1% 10%;
+  padding: 1% 2%;
+  overflow: hidden;
+}
+
+.body-container .Posts .post .post-container .proyect-Gallery .item-container{
+  width: 28%;
+  margin: 1% 1.1%;
+  padding: 2% 1%;
+  border: 3px solid #000;
+  float: left;
+}
+.body-container .Posts .post .post-container .proyect-Gallery .item-container .product-img a img{
+  width: 100%;
+  margin: 1% 0.5%;
+  padding: 0.5%;
+  opacity: 0.5;
+}
+.body-container .Posts .post .post-container .proyect-Gallery .item-container h3{
+  font-size: 12px;
+}
+
+.body-container .Posts .post .post-container .proyect-Gallery .item-container:hover
+{
+  border-color:#6E6E6E;
+  transition: all 0.5s ease;
+}
+
+.body-container .Posts .post .post-container .proyect-Gallery .item-container .product-img a img:hover{
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.body-container .contactme {
+  width: 75%;
+  margin: 5% auto;
+  padding: 2%;
+  border: 3px solid #E5E3E3;
+}
+.body-container .contactme h2{
+  text-align: center;
+}
+.body-container .contactme .formulary input{
+  display: block;
+  position: relative;
+}
+
+.body-container .contactme .formulary input[type="text"],
+.body-container .contactme .formulary input[type="email"],
+.body-container .contactme .formulary textarea{
+  width: 70%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #000;
+  border-radius: 3px;
+}
+
+.formulary textarea{
+  min-height: 100px;
+  max-height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.formulary input[type="text"],
+.formulary input[type="email"]{
+  margin: 20px auto;
+}
+
+.formulary input[type="submit"]
+{
+  width: 50px;
+  margin: 20px auto;
+  background-color: inherit;
+  border: 1px solid #000;
+}
+
+.formulary input[type="submit"]:hover
+{
+  border :2px solid #000;
+}
+
+.formulary textarea:focus,input:focus{
+  border-color: red;
+}
+
+footer{
+  background-color: #000;
+  width: 100%;
+  color: #fff;
 }
