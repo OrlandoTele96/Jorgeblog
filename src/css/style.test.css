@@ -1,0 +1,208 @@
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing : border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  background: white;
+  /*margin: auto;*/
+  font-family: "Times New Roman",Helvetica,Arial;
+  font-size: 15px;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  font-size: 20px;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  width: 100px;
+}
+a:hover{
+  color:#6e6e6e;
+  text-decoration: underline;
+}
+a:visited{
+  color: white;
+}
+header{
+  margin: auto;
+  /*border: 10px;
+  padding: 10px;*/
+}
+
+.logo{
+  padding-left: 524px;
+  padding-right: 524px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+nav{
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding-left: 524px;
+  padding-right: 524px;
+  overflow: hidden;
+}
+
+nav a{
+  float: left;
+}
+
+article{
+  font-style: normal;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.Posts{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.post{
+  background-color: #E5E3E3;
+  margin: 25px 0px;
+  padding: 5px 0px;
+}
+.post-container{
+  margin-left: 524px;
+  margin-right: 524px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.post-container h2{
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 10px;
+}
+
+div .img-article img{
+  width: 860px;
+  align-items: center;
+  margin: 10px 0px;
+}
+.post-container h3{
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-weight:lighter;
+  margin: 10px;
+  padding: 10px;
+  color: #6E6E6E;
+}
+
+.button{
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+.button a{
+  width: 115px;
+  margin: 10px;
+  padding: 10px;
+  position:absolute;
+  bottom: 20%;
+  left: 40%;
+}
+.proyect-Gallery
+{
+  overflow: hidden;
+}
+.proyect-Gallery .item-container{
+  float: left;
+}
+.item-container
+{
+  width: 250px;
+  display: block;
+  margin: 20px;
+  padding: 5px;
+  border: 3px solid #000;
+}
+.product-img a img{
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+.product-img img:hover{
+  opacity: 1;
+}
+.item-container h3{
+  margin: 5px auto;
+}
+
+.contactme {
+  width: 872px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid #E5E3E3;
+}
+.contactme h2{
+  text-align: center;
+}
+.formulary input{
+  display: block;
+  position: relative;
+}
+
+.formulary input[type="text"],
+.formulary input[type="email"],
+.formulary textarea{
+  width: 70%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #000;
+  border-radius: 3px;
+}
+
+.formulary textarea{
+  min-height: 100px;
+  max-height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.formulary input[type="text"],
+.formulary input[type="email"]{
+  margin: 20px auto;
+}
+
+.formulary input[type="submit"]
+{
+  width: 50px;
+  margin: 20px auto;
+  background-color: inherit;
+  border: 1px solid #000;
+}
+
+.formulary input[type="submit"]:hover
+{
+  border :2px solid #000;
+}
+
+.formulary textarea:focus,input:focus{
+  border-color: red;
+}
+
+footer{
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+}
