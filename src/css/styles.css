@@ -5,3 +5,9 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+body{
+  background: white;
+  /*margin: auto;*/
+  font-family: "Times New Roman",Helvetica,Arial;
+  font-size: 15px;
+}
