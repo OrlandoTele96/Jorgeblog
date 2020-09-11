@@ -153,13 +153,9 @@ article{
   width: 100%;
   margin: 2%;
   padding: 2%;
-  position: relative;
-
+  display: inline-block;
 }
 
 .body-container .Posts .post .post-container .button a{
-  position:absolute;
-  bottom: -90%;
-  left: 40%;
-  display: inline-block;
+  
 }
