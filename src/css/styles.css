@@ -5,14 +5,25 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+@media screen and (max-width:768px) {
+  body{
+    background-color:black;
+  }
+  .body-container{
+
+  }
+  .body-container header .logo{
+
+  }
+  .body-container header .logo img{
+    width: 150%;
+  }
+}
 body{
   background: white;
-  max-width: 1920px;
-  /*margin: auto;*/
   font-family: "Times New Roman",Helvetica,Arial;
   font-size: 15px;
 }
-
 a:visited{
   color: white;
 }
@@ -23,235 +34,33 @@ article{
   letter-spacing: 2px;
   line-height: 20px;
 }
-
-
-
 .body-container {
-  width: 100%;
+  width: 90%;
   margin: 0;
   padding: 0;
-  background: white;
-}
 
+}
 .body-container header{
   width: 100%;
   margin: 1% 0%;
   padding: 0;
 }
-
 .body-container header .logo{
-  width: auto;
-  display: inline-block;
-  margin: 1% 28%;
-  padding: 0.5%;
-
+  width: 60%;
 }
-
 .body-container header .logo img{
-  /*display: block;*/
-  width: 100%;
-  margin: 0.1%;
-  padding: 0.5%;
+  margin: 0% 2%;
 }
 
 .body-container header nav{
   width: 100%;
-  background: #000;
-  position: relative;
-}
-
-.body-container header nav ul{
-  width: 100%;
-  margin:0.2% 27%;
-  padding: 0.5%;
-  overflow: hidden;
-  list-style: none;
-}
-
-.body-container header nav ul li{
-  margin: 0.5%;
-  padding: 1%;
-  float:left;
-  border: 0.5px solid #fff;
-}
-
-.body-container header nav ul li a{
-  color: #fff;
-  text-decoration: none;
-}
-
-.body-container header nav ul li a:hover{
-  color:#6e6e6e;
-  text-decoration: underline;
-  transition: all 0.5s ease;
-}
-
-.body-container header nav ul li:hover{
-  border: 0.5px solid;
-  color : #6e6e6e;
-  transition: all 0.5s ease;
-}
-
-.body-container .Posts{
-  width: 80%;
-  margin: 2% auto;
-  padding: 0.5%;
-  background: #fff;
-}
-
-.body-container .Posts .post{
-  width: 100%;
-  background: #E5E3E3;
-  margin: 0.5% 0%;
-  margin-bottom: 2%;
-  padding: 5%;
-}
-
-.body-container .Posts .post .post-container{
-  width: 100%;
-  margin: 0.1%;
-  padding: 0.1%;
-  position: relative;
-}
-
-.body-container .Posts .post .post-container h2{
-  text-align: center;
-  font-size: 35px;
-  font-style: italic;
-  font-weight: bolder;
-  margin : 0.5%;
-  padding: 0.2%;
-}
-
-.body-container .Posts .post .post-container h3{
-  text-align: center;
-  font-size: 15px;
-  font-style: italic;
-  margin : 0.5%;
-  padding: 0.2%;
-  color: #6E6E6E;
-}
-
-.body-container .Posts .post .post-container .img-article{
-  width: 100%;
-  margin:2% auto;
-  padding: 1%;
-  display:inline-block;
+  background: black;
 }
 
 .body-container .Posts .post .post-container .img-article img{
   width: 50%;
-  margin : 1%;
-  margin-left: 25%;
-  margin-right: 25%;
 }
 
-.body-container .Posts .post .post-container .text-article{
-
-}
-
-.body-container .Posts .post .post-container .button{
-  width: 100%;
-  margin: 2%;
-  padding: 2%;
-  display: inline-block;
-}
-
-.body-container .Posts .post .post-container .button a{
-  width: auto;
-  margin: 3% 43%;
-}
-
-.body-container .Posts .post .post-container .proyect-Gallery{
-  width: 90%;
-  margin: 1% 10%;
-  padding: 1% 2%;
-  overflow: hidden;
-}
-
-.body-container .Posts .post .post-container .proyect-Gallery .item-container{
-  width: 28%;
-  margin: 1% 1.1%;
-  padding: 2% 1%;
-  border: 3px solid #000;
-  float: left;
-}
 .body-container .Posts .post .post-container .proyect-Gallery .item-container .product-img a img{
   width: 100%;
-  margin: 1% 0.5%;
-  padding: 0.5%;
-  opacity: 0.5;
-}
-.body-container .Posts .post .post-container .proyect-Gallery .item-container h3{
-  font-size: 12px;
-}
-
-.body-container .Posts .post .post-container .proyect-Gallery .item-container:hover
-{
-  border-color:#6E6E6E;
-  transition: all 0.5s ease;
-}
-
-.body-container .Posts .post .post-container .proyect-Gallery .item-container .product-img a img:hover{
-  opacity: 1;
-  transition: all 0.5s ease;
-}
-.body-container .contactme {
-  width: 75%;
-  margin: 5% auto;
-  padding: 2%;
-  border: 3px solid #E5E3E3;
-}
-.body-container .contactme h2{
-  text-align: center;
-}
-.body-container .contactme .formulary input{
-  display: block;
-  position: relative;
-}
-
-.body-container .contactme .formulary input[type="text"],
-.body-container .contactme .formulary input[type="email"],
-.body-container .contactme .formulary textarea{
-  width: 70%;
-  padding: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 2px solid #000;
-  border-radius: 3px;
-}
-
-.formulary textarea{
-  min-height: 100px;
-  max-height: 300px;
-  min-width: 100%;
-  max-width: 100%;
-}
-
-.formulary input[type="text"],
-.formulary input[type="email"]{
-  margin: 20px auto;
-}
-
-.formulary input[type="submit"]
-{
-  width: 50px;
-  margin: 20px auto;
-  background-color: inherit;
-  border: 1px solid #000;
-}
-
-.formulary input[type="submit"]:hover
-{
-  border :2px solid #000;
-}
-
-.formulary textarea:focus,input:focus{
-  border-color: red;
-}
-
-footer{
-  background-color: #000;
-  width: 100%;
-  color: #fff;
 }
