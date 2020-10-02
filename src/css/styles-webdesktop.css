@@ -1,0 +1,11 @@
+@media screen and (min-width:769px) {
+  body{
+    background: white;
+  }
+  .body-container .Posts{
+    background: #fff;
+  }
+  .body-container .Posts .post{
+      background: #E5E3E3;
+  }
+}

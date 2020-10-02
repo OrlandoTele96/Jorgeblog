@@ -1,0 +1,20 @@
+@media screen and (max-width:768px) {
+  body{
+
+  }
+  .body-container{
+
+  }
+  .body-container header .logo{
+
+  }
+  .body-container header .logo img{
+    width: 110%;
+  }
+  .body-container .Posts{
+    background: #000;
+  }
+  .body-container .Posts .post{
+      background: gray;
+  }
+}
