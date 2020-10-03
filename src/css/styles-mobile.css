@@ -9,7 +9,9 @@
 
   }
   .body-container header .logo img{
-    width: 110%;
+    width: 100%;
+    margin: 1px;
+    padding: 2px;
   }
   .body-container .Posts{
     background: #000;

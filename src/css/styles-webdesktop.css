@@ -2,6 +2,10 @@
   body{
     background: white;
   }
+  .body-container header .logo img{
+    margin: 0% 10%;
+    padding: 2px;
+  }
   .body-container .Posts{
     background: #fff;
   }
