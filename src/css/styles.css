@@ -98,17 +98,47 @@ article{
 }
 
 .body-container .Posts .post .post-container{
-
+  width: 100%;
+  margin: 0.1%;
+  padding: 0.1%;
 }
 
-.body-container .Posts .post .post-container .img-article img{
-  width: 50%;
+.body-container .Posts .post .post-container h2{
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bolder;
+  margin : 0.5%;
+  padding: 0.2%;
+}
+
+.body-container .Posts .post .post-container h3{
+  font-style: italic;
+}
+
+.body-container .Posts .post .post-container .img-article{
+  width: 100%;
+  margin:2% auto;
+  padding: 1%;
+}
+
+.body-container .Posts .post .post-container .button{
+  width: 100%;
+  margin: 2%;
+  padding: 2%;
+}
+
+.body-container .Posts .post .post-container .proyect-Gallery{
+  width: 90%;
+  margin: 1% 5%;
+  padding: 1% 1%;
+  display: flex;
+  
 }
 
 .body-container .Posts .post .post-container .proyect-Gallery .item-container .product-img a img{
   width: 100%;
 }
-
 
 .body-container .contactme {
   width: 75%;

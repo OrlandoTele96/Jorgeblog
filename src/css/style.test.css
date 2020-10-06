@@ -174,12 +174,14 @@ article{
   border: 3px solid #000;
   float: left;
 }
+
 .body-container .Posts .post .post-container .proyect-Gallery .item-container .product-img a img{
   width: 100%;
   margin: 1% 0.5%;
   padding: 0.5%;
   opacity: 0.5;
 }
+
 .body-container .Posts .post .post-container .proyect-Gallery .item-container h3{
   font-size: 12px;
 }
