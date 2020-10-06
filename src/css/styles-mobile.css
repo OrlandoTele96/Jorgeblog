@@ -19,4 +19,7 @@
   .body-container .Posts .post{
       background: gray;
   }
+  .body-container header nav ul li{
+    margin : 0px 2px;
+  }
 }

@@ -53,8 +53,8 @@ article{
 }
 
 .body-container header nav ul{
-  width: 100%;
-  margin:0.2% 27%;
+  width: 60%;
+  margin:0.2% auto;
   padding: 0.5%;
   list-style: none;
   display: flex;
@@ -62,11 +62,26 @@ article{
 }
 
 .body-container header nav ul li{
-
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border: 0.5px solid #fff;
 }
 
 .body-container header nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
 
+.body-container header nav ul li a:hover{
+  color:#6e6e6e;
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
+
+.body-container header nav ul li:hover{
+  border: 0.5px solid;
+  color : #6e6e6e;
+  transition: all 0.5s ease;
 }
 
 .body-container .Posts{
