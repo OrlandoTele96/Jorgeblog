@@ -1,9 +1,9 @@
 @media screen and (max-width:768px) {
   body{
-
+    background: #FFF;
   }
   .body-container{
-
+    width: 95%;
   }
   .body-container header .logo{
 
@@ -13,11 +13,15 @@
     margin: 1px;
     padding: 2px;
   }
-  .body-container .Posts{
+  .body-container header nav{
     background: #000;
   }
+  .body-container .Posts{
+    width: 95%;
+    background: #FFF;
+  }
   .body-container .Posts .post{
-      background: gray;
+      background: rgba(110,110,110,0.2);
   }
   .body-container header nav ul li{
     margin : 0px 2px;
@@ -38,5 +42,12 @@
   .body-container .Posts .post .post-container .button a{
     width: auto;
     margin: 3% 27%;
+  }
+  .body-container .Posts .post .post-container .proyect-Gallery{
+    width: 90%;
+    margin: 15px 25px;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
   }
 }

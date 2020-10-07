@@ -2,16 +2,25 @@
   body{
     background: white;
   }
+  .body-container{
+    width: 90%;
+  }
   .body-container header .logo img{
     width: 60%;
     margin: 0% 20%;
     padding: 2px 2px;
   }
   .body-container .Posts{
+    width: 80%;
     background: #fff;
   }
   .body-container .Posts .post{
       background: #E5E3E3;
+  }
+
+  .body-container header nav{
+    width: 100%;
+    background: black;
   }
   .body-container header nav ul li{
     width: 22%;
@@ -40,5 +49,11 @@
   .body-container .Posts .post .post-container .button a{
     width: auto;
     margin: 3% 43%;
+  }
+  .body-container .Posts .post .post-container .proyect-Gallery{
+    width: 90%;
+    margin: 20px 35px;
+    padding: 5px 10px;
+    display: flex;
   }
 }
