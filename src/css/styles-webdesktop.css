@@ -56,4 +56,13 @@
     padding: 5px 10px;
     display: flex;
   }
+  .body-container .Posts .post .post-container .proyect{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .body-container .Posts .post .post-container .proyect .proyect-img{
+    width: 30%;
+  }
 }

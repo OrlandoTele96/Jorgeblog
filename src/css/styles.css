@@ -218,3 +218,28 @@ article{
 .formulary textarea:focus,input:focus{
   border-color: red;
 }
+
+.body-container .Posts .post .post-container .proyect{
+  width: 80%;
+  margin: 15px auto;
+  padding: 5px;
+  border: 2px solid #000;
+}
+
+.body-container .Posts .post .post-container .proyect:hover{
+  border: 2px solid rgba(0,0,0,0.5)
+}
+
+.body-container .Posts .post .post-container .proyect .proyect-img a img{
+  width: 100%;
+}
+
+.body-container .Posts .post .post-container .proyect h3{
+  width: 25%;
+  color: #000;
+  font-size: 20px;
+}
+
+.body-container .Posts .post .post-container .proyect .proyect-desc{
+  color: #000;
+}
