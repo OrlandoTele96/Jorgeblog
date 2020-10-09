@@ -5,16 +5,18 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 body{
-  background: white;
-  max-width: 1920px;
-  /*margin: auto;*/
+  /*background: white;*/
   font-family: "Times New Roman",Helvetica,Arial;
   font-size: 15px;
 }
-
 a:visited{
   color: white;
+}
+
+ul{
+  list-style: none;
 }
 
 article{
@@ -23,55 +25,44 @@ article{
   letter-spacing: 2px;
   line-height: 20px;
 }
-
-
-
 .body-container {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background: white;
-}
 
+  margin: 0 auto;
+  padding: 0;
+
+}
 .body-container header{
   width: 100%;
-  margin: 1% 0%;
+  margin: 10px 5px;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .body-container header .logo{
-  width: auto;
-  display: inline-block;
-  margin: 1% 28%;
-  padding: 0.5%;
-
+  width: 70%;
 }
-
 .body-container header .logo img{
-  /*display: block;*/
-  width: 100%;
-  margin: 0.1%;
-  padding: 0.5%;
+
 }
 
 .body-container header nav{
   width: 100%;
-  background: #000;
-  position: relative;
 }
 
 .body-container header nav ul{
-  width: 100%;
-  margin:0.2% 27%;
+  width: 60%;
+  margin:0.2% auto;
   padding: 0.5%;
-  overflow: hidden;
   list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 
 .body-container header nav ul li{
-  margin: 0.5%;
-  padding: 1%;
-  float:left;
+  margin-top: 1px;
+  margin-bottom: 1px;
   border: 0.5px solid #fff;
 }
 
@@ -93,15 +84,13 @@ article{
 }
 
 .body-container .Posts{
-  width: 80%;
-  margin: 2% auto;
-  padding: 0.5%;
-  background: #fff;
+
+  margin: 10px auto;
+  padding: 5px;
 }
 
 .body-container .Posts .post{
   width: 100%;
-  background: #E5E3E3;
   margin: 0.5% 0%;
   margin-bottom: 2%;
   padding: 5%;
@@ -111,7 +100,6 @@ article{
   width: 100%;
   margin: 0.1%;
   padding: 0.1%;
-  position: relative;
 }
 
 .body-container .Posts .post .post-container h2{
@@ -124,64 +112,41 @@ article{
 }
 
 .body-container .Posts .post .post-container h3{
-  text-align: center;
-  font-size: 15px;
   font-style: italic;
-  margin : 0.5%;
-  padding: 0.2%;
-  color: #6E6E6E;
 }
 
 .body-container .Posts .post .post-container .img-article{
   width: 100%;
   margin:2% auto;
   padding: 1%;
-  display:inline-block;
-}
-
-.body-container .Posts .post .post-container .img-article img{
-  width: 50%;
-  margin : 1%;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-.body-container .Posts .post .post-container .text-article{
-
 }
 
 .body-container .Posts .post .post-container .button{
   width: 100%;
   margin: 2%;
   padding: 2%;
-  display: inline-block;
 }
 
-.body-container .Posts .post .post-container .button a{
-  width: auto;
-  margin: 3% 43%;
-}
 
-.body-container .Posts .post .post-container .proyect-Gallery{
-  width: 90%;
-  margin: 1% 10%;
-  padding: 1% 2%;
-  overflow: hidden;
-}
 
 .body-container .Posts .post .post-container .proyect-Gallery .item-container{
-  width: 28%;
+  width: 100%;
   margin: 1% 1.1%;
   padding: 2% 1%;
   border: 3px solid #000;
-  float: left;
 }
+
+.body-container .Posts .post .post-container .proyect-Gallery .item-container .product-img a img{
+  width: 100%;
+}
+
 .body-container .Posts .post .post-container .proyect-Gallery .item-container .product-img a img{
   width: 100%;
   margin: 1% 0.5%;
   padding: 0.5%;
   opacity: 0.5;
 }
+
 .body-container .Posts .post .post-container .proyect-Gallery .item-container h3{
   font-size: 12px;
 }
@@ -196,6 +161,14 @@ article{
   opacity: 1;
   transition: all 0.5s ease;
 }
+
+.body-container .contactme {
+  width: 75%;
+  margin: 5% auto;
+  padding: 2%;
+  border: 3px solid #E5E3E3;
+}
+
 .body-container .contactme {
   width: 75%;
   margin: 5% auto;
@@ -241,17 +214,32 @@ article{
   border: 1px solid #000;
 }
 
-.formulary input[type="submit"]:hover
-{
-  border :2px solid #000;
-}
 
 .formulary textarea:focus,input:focus{
   border-color: red;
 }
 
-footer{
-  background-color: #000;
+.body-container .Posts .post .post-container .proyect{
+  width: 80%;
+  margin: 15px auto;
+  padding: 5px;
+  border: 2px solid #000;
+}
+
+.body-container .Posts .post .post-container .proyect:hover{
+  border: 2px solid rgba(0,0,0,0.5)
+}
+
+.body-container .Posts .post .post-container .proyect .proyect-img a img{
   width: 100%;
-  color: #fff;
+}
+
+.body-container .Posts .post .post-container .proyect h3{
+  width: 25%;
+  color: #000;
+  font-size: 20px;
+}
+
+.body-container .Posts .post .post-container .proyect .proyect-desc{
+  color: #000;
 }

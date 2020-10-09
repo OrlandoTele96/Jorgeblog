@@ -7,52 +7,14 @@
 }
 body{
   background: white;
+  max-width: 1920px;
   /*margin: auto;*/
   font-family: "Times New Roman",Helvetica,Arial;
   font-size: 15px;
 }
-ul{
-  list-style-type: none;
-}
-a{
-  font-size: 20px;
-  text-decoration: none;
-  margin: 5px;
-  padding: 5px;
-  display: inline-block;
-  width: 100px;
-}
-a:hover{
-  color:#6e6e6e;
-  text-decoration: underline;
-}
+
 a:visited{
   color: white;
-}
-header{
-  margin: auto;
-  /*border: 10px;
-  padding: 10px;*/
-}
-
-.logo{
-  padding-left: 524px;
-  padding-right: 524px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-nav{
-  background-color: black;
-  color: white;
-  font-style: italic;
-  padding-left: 524px;
-  padding-right: 524px;
-  overflow: hidden;
-}
-
-nav a{
-  float: left;
 }
 
 article{
@@ -62,108 +24,195 @@ article{
   line-height: 20px;
 }
 
-.Posts{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.post{
-  background-color: #E5E3E3;
-  margin: 25px 0px;
-  padding: 5px 0px;
-}
-.post-container{
-  margin-left: 524px;
-  margin-right: 524px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+
+
+.body-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: white;
 }
 
-.post-container h2{
+.body-container header{
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0;
+}
+
+.body-container header .logo{
+  width: auto;
+  display: inline-block;
+  margin: 1% 28%;
+  padding: 0.5%;
+}
+.body-container header .logo img{
+  /*display: block;*/
+  width: 100%;
+  margin: 0.1%;
+  padding: 0.5%;
+}
+
+.body-container header nav{
+  width: 100%;
+  background: #000;
+  position: relative;
+}
+
+.body-container header nav ul{
+  width: 100%;
+  margin:0.2% 27%;
+  padding: 0.5%;
+  overflow: hidden;
+  list-style: none;
+}
+
+.body-container header nav ul li{
+  margin: 0.5%;
+  padding: 1%;
+  float:left;
+  border: 0.5px solid #fff;
+}
+
+.body-container header nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.body-container header nav ul li a:hover{
+  color:#6e6e6e;
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
+
+.body-container header nav ul li:hover{
+  border: 0.5px solid;
+  color : #6e6e6e;
+  transition: all 0.5s ease;
+}
+
+.body-container .Posts{
+  width: 80%;
+  margin: 2% auto;
+  padding: 0.5%;
+  background: #fff;
+}
+
+.body-container .Posts .post{
+  width: 100%;
+  background: #E5E3E3;
+  margin: 0.5% 0%;
+  margin-bottom: 2%;
+  padding: 5%;
+}
+
+.body-container .Posts .post .post-container{
+  width: 100%;
+  margin: 0.1%;
+  padding: 0.1%;
+  position: relative;
+}
+
+.body-container .Posts .post .post-container h2{
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
   font-style: italic;
   font-weight: bolder;
-  margin: 10px;
-  padding: 10px;
+  margin : 0.5%;
+  padding: 0.2%;
 }
 
-div .img-article img{
-  width: 860px;
-  align-items: center;
-  margin: 10px 0px;
-}
-.post-container h3{
+.body-container .Posts .post .post-container h3{
   text-align: center;
   font-size: 15px;
   font-style: italic;
-  font-weight:lighter;
-  margin: 10px;
-  padding: 10px;
+  margin : 0.5%;
+  padding: 0.2%;
   color: #6E6E6E;
 }
 
-.button{
-  height: 100px;
-  margin: 10px;
-  padding: 10px;
-  position: relative;
+.body-container .Posts .post .post-container .img-article{
+  width: 100%;
+  margin:2% auto;
+  padding: 1%;
+  display:inline-block;
 }
-.button a{
-  width: 115px;
-  margin: 10px;
-  padding: 10px;
-  position:absolute;
-  bottom: 20%;
-  left: 40%;
+
+.body-container .Posts .post .post-container .img-article img{
+  width: 50%;
+  margin : 1%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
-.proyect-Gallery
-{
+
+.body-container .Posts .post .post-container .text-article{
+
+}
+
+.body-container .Posts .post .post-container .button{
+  width: 100%;
+  margin: 2%;
+  padding: 2%;
+  display: inline-block;
+}
+
+.body-container .Posts .post .post-container .button a{
+  width: auto;
+  margin: 3% 43%;
+}
+
+.body-container .Posts .post .post-container .proyect-Gallery{
+  width: 90%;
+  margin: 1% 10%;
+  padding: 1% 2%;
   overflow: hidden;
 }
-.proyect-Gallery .item-container{
+
+.body-container .Posts .post .post-container .proyect-Gallery .item-container{
+  width: 28%;
+  margin: 1% 1.1%;
+  padding: 2% 1%;
+  border: 3px solid #000;
   float: left;
 }
-.item-container
-{
-  width: 250px;
-  display: block;
-  margin: 20px;
-  padding: 5px;
-  border: 3px solid #000;
-}
-.product-img a img{
-  width: 200px;
-  margin: 10px auto;
-  padding: 10px;
+
+.body-container .Posts .post .post-container .proyect-Gallery .item-container .product-img a img{
+  width: 100%;
+  margin: 1% 0.5%;
+  padding: 0.5%;
   opacity: 0.5;
 }
 
-.product-img img:hover{
-  opacity: 1;
-}
-.item-container h3{
-  margin: 5px auto;
+.body-container .Posts .post .post-container .proyect-Gallery .item-container h3{
+  font-size: 12px;
 }
 
-.contactme {
-  width: 872px;
-  margin: 20px auto;
-  padding: 20px;
+.body-container .Posts .post .post-container .proyect-Gallery .item-container:hover
+{
+  border-color:#6E6E6E;
+  transition: all 0.5s ease;
+}
+
+.body-container .Posts .post .post-container .proyect-Gallery .item-container .product-img a img:hover{
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.body-container .contactme {
+  width: 75%;
+  margin: 5% auto;
+  padding: 2%;
   border: 3px solid #E5E3E3;
 }
-.contactme h2{
+.body-container .contactme h2{
   text-align: center;
 }
-.formulary input{
+.body-container .contactme .formulary input{
   display: block;
   position: relative;
 }
 
-.formulary input[type="text"],
-.formulary input[type="email"],
-.formulary textarea{
+.body-container .contactme .formulary input[type="text"],
+.body-container .contactme .formulary input[type="email"],
+.body-container .contactme .formulary textarea{
   width: 70%;
   padding: 20px;
   margin-top: 10px;
