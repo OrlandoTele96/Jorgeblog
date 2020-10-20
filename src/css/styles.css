@@ -39,6 +39,7 @@ article{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
 }
 .body-container header .logo{
   width: 70%;
@@ -49,6 +50,8 @@ article{
 
 .body-container header nav{
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .body-container header nav ul{
@@ -58,6 +61,8 @@ article{
   list-style: none;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .body-container header nav ul li{
