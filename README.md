@@ -1,2 +1,3 @@
 # Jorgeblog
-My personal blog
+
+In this repository I designed my first blog.
